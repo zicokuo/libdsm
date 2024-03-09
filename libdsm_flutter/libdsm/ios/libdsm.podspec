@@ -17,9 +17,9 @@ An all platform wrapper for the libdsm(Defective SMB) library.
   s.dependency 'Flutter'
   s.ios.deployment_target = '12.0'
 
-  s.preserve_paths = 'libdsm_ios.framework'
+  s.preserve_paths = 'libdsm_ios.framewo
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework libdsm_ios' }
   s.vendored_frameworks = 'libdsm_ios.framework'
 
-  s.swift_version = '5.5.2'
+  s.swift_version = '5.9.2'
 end
