@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - libdsm (1.1.7):
+  - libdsm (1.1.9):
     - Flutter
 
 DEPENDENCIES:
@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/libdsm/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  libdsm: dfc73f86c49ec471adee0cc63f33b5a341e5f11e
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  libdsm: 8fb0b3418ef0eade2bd7bb4a7e25ca5fafb3dfa5
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: c4c93c5f6502fe2754f48404d3594bf779584011
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.15.2

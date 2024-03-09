@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:libdsm/libdsm.dart';
@@ -90,55 +91,55 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           // <Widget> is the type of items in the list.
           children: <Widget>[
-            RaisedButton(
+            CupertinoButton(
               onPressed: _create,
               child: Text('create'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _release,
               child: Text('release'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _startDiscovery,
               child: Text('startDiscovery'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _stopDiscovery,
               child: Text('stopDiscovery'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _resolve,
               child: Text('resolve'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _inverse,
               child: Text('inverse'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _login,
               child: Text('login'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _logout,
               child: Text('logout'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _getShareList,
               child: Text('getShareList'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _treeConnect,
               child: Text('treeConnect'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _treeDisconnect,
               child: Text('treeDisconnect'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _find,
               child: Text('find'),
             ),
-            RaisedButton(
+            CupertinoButton(
               onPressed: _fileStatus,
               child: Text('fileStatus'),
             ),
